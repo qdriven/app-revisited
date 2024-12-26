@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@openpanel/nextjs": "^1.0.0",
-    "@v1/logger": "workspace:*",
+    "@revisited/logger": "workspace:*",
     "@vercel/functions": "^1.4.1"
   },
   "exports": {
