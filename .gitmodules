@@ -1,0 +1,3 @@
+[submodule "tooling/fe-next-starter"]
+	path = tooling/fe-next-starter
+	url = https://github.com/fluent-qa/fe-next-starter.git

@@ -11,6 +11,7 @@ rm -rf .next
 # Remove any leftover build caches
 echo "Removing build caches..."
 rm -rf .cache
+rm -rf .turbo
 
 # Optional: Remove yarn.lock or package-lock.json
 # echo "Removing package lock file..."
