@@ -5,7 +5,7 @@ const DEFY_API_KEY: string | undefined = process.env.SUPABASE_SERVICE_ROLEKEY
   ? process.env.DIFY_API_KEY
   : "";
 const user = `tr-98763`;
-const completionClient = new CompletionClient(DEFY_API_KEY);
+const completionClient = new CompletionClient(BASE_URL,DEFY_API_KEY);
 
 export const translate = async function (query: string) {
   const result = await completionClient.createCompletionMessage(
